@@ -1,0 +1,46 @@
+# Core Dependencies
+fastapi==0.104.1
+uvicorn==0.24.0
+pydantic==2.5.0
+python-dotenv==1.0.0
+
+# AI/ML Dependencies (ChatGPT API)
+openai==1.3.0
+tiktoken==0.5.0
+
+# Blockchain Dependencies (Base Network)
+web3==6.11.0
+eth-account==0.9.0
+pycryptodome==3.19.0
+
+# Social Media API Dependencies
+tweepy==4.14.0
+instagram-basic-display==1.0.0
+linkedin-api==2.2.0
+
+# Database Dependencies
+sqlalchemy==2.0.0
+alembic==1.12.0
+psycopg2-binary==2.9.0
+redis==5.0.0
+
+# HTTP and API Dependencies
+httpx==0.25.0
+requests==2.31.0
+aiohttp==3.9.0
+
+# Data Processing Dependencies
+beautifulsoup4==4.12.0
+lxml==4.9.0
+pillow==10.0.0
+
+# Testing Dependencies
+pytest==7.4.0
+pytest-asyncio==0.21.0
+pytest-mock==3.12.0
+
+# Development Dependencies
+black==23.9.0
+flake8==6.1.0
+mypy==1.6.0
+pre-commit==3.5.0

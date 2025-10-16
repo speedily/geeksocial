@@ -1,0 +1,70 @@
+{
+  "name": "geeksocial-mvp",
+  "version": "1.0.0",
+  "description": "AI-Powered Social Media Content Creator - MVP with PYUSD + ChatGPT",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "jest",
+    "test:integration": "jest --config jest.integration.config.js"
+  },
+  "keywords": [
+    "ai",
+    "social-media",
+    "content-creation",
+    "paypal",
+    "pyusd",
+    "chatgpt",
+    "openai",
+    "base-network"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^14.0.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "typescript": "^5.0.0",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "@types/node": "^20.0.0",
+    "tailwindcss": "^3.3.0",
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.0",
+    "@paypal/react-paypal-js": "^8.0.0",
+    "openai": "^4.20.0",
+    "axios": "^1.6.0",
+    "ethers": "^6.8.0",
+    "wagmi": "^1.4.0",
+    "@tanstack/react-query": "^5.0.0",
+    "framer-motion": "^10.16.0",
+    "lucide-react": "^0.294.0",
+    "clsx": "^2.0.0",
+    "class-variance-authority": "^0.7.0",
+    "next-auth": "^4.24.0",
+    "prisma": "^5.6.0",
+    "@prisma/client": "^5.6.0",
+    "redis": "^4.6.0",
+    "tweepy": "^4.14.0",
+    "instagram-basic-display": "^1.0.0",
+    "linkedin-api": "^2.2.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.0",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "@testing-library/react": "^14.0.0",
+    "@testing-library/jest-dom": "^6.0.0",
+    "eslint": "^8.0.0",
+    "eslint-config-next": "^14.0.0",
+    "prettier": "^3.0.0",
+    "prettier-plugin-tailwindcss": "^0.5.0"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  }
+}
